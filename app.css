@@ -1,0 +1,52 @@
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+}
+
+.calculator {
+  border: 1px solid black;
+  width: 320px;
+}
+
+.screen {
+  background: rgb(36, 1, 1);
+  color: white;
+  text-align: right;
+  font-size: 2.4em;
+  padding: 0.5em;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 80px);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.btn {
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.3em;
+}
+
+.orange {
+  background: rgb(255, 178, 34);
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+.span-3 {
+  grid-column: span 3;
+}
